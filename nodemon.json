@@ -2,7 +2,12 @@
 	"execMap": {
 		"ts": "ts-node"
 	},
+	"ext": "ts,json",
 	"ignore": [
 		"*.json"
-	]
+	],
+	"watch": [
+		"src"
+	],
+	"exec": "ts-node ./src/index.ts"
 }

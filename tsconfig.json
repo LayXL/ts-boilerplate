@@ -3,7 +3,8 @@
 		"module": "NodeNext",
 		"target": "ES2022",
 		"sourceMap": true,
-		"outDir": "dist"
+		"outDir": "dist",
+		"skipLibCheck": true
 	},
 	"exclude": [
 		"node_modules"
